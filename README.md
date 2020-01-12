@@ -15,7 +15,10 @@ Output: [1,3,2]
 ```
 **Follow up: Recursive solution is trivial, could you do it iteratively?**
 
+# Inorder Traversal :
 ![Binary Tree](binary-tree.PNG?raw=true "Binary Tree")
+
+The inorder traversal for above binary tree will be [21, 35, 20, 67, 75, 30, 70, 50, 29, 43, 60, 24, 65]
 
 ## Implementation :
 
@@ -54,22 +57,22 @@ public class App {
 	 
 	
 	public static List <Integer> inorderTraversal(TreeNode root) {
-        List <Integer> res = new ArrayList<Integer>();
-        helper(root, res);
-        return res;
-    }
-
-    public static void helper(TreeNode root, List <Integer> res) {
-        if (root != null) {
-            if (root.left != null) {
-                helper(root.left, res);
-            }
-            res.add(root.val);
-            if (root.right != null) {
-                helper(root.right, res);
-            }
+            List <Integer> res = new ArrayList<Integer>();
+            helper(root, res);
+            return res;
         }
-    }
+
+       public static void helper(TreeNode root, List <Integer> res) {
+	    if (root != null) {
+		  if (root.left != null) {
+		     helper(root.left, res);
+		  }
+		  res.add(root.val);
+		  if (root.right != null) {
+		     helper(root.right, res);
+		  }
+	      }
+       }
 }
 
 ```
