@@ -20,6 +20,7 @@ Output: [1,3,2]
 ![Binary Tree](binary-tree.PNG?raw=true "Binary Tree")
 
 Note that node 75 doesn't have left child and node 29 doesn't have right child.
+
 The inorder traversal for above binary tree will be **[21, 35, 20, 67, 75, 30, 70, 50, 29, 43, 60, 24, 65]**
 
 ## Implementation :
@@ -79,5 +80,6 @@ public class App {
 
 ```
 ## References :
+https://leetcode.com/problems/binary-tree-inorder-traversal/solution
 
 
