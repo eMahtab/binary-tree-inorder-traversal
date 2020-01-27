@@ -75,7 +75,7 @@ public class App {
 }
 
 ```
-## References :
-https://leetcode.com/problems/binary-tree-inorder-traversal/solution
-https://www.youtube.com/watch?v=50v1sJkjxoc (Iterative Approach using Stack)
+# References :
+1. https://leetcode.com/problems/binary-tree-inorder-traversal/solution
+2.https://www.youtube.com/watch?v=50v1sJkjxoc (Iterative Approach using Stack)
 
