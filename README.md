@@ -97,11 +97,12 @@ public List <Integer> inorderTraversal(TreeNode root) {
                 curr = curr.right;
             }
       }
-  return res;
+   return res;
 }
 ```
 
 # References :
 1. https://leetcode.com/problems/binary-tree-inorder-traversal/solution
 2. https://www.youtube.com/watch?v=50v1sJkjxoc (Iterative Approach using Stack)
+3. https://www.techiedelight.com/inorder-tree-traversal-iterative-recursive
 
