@@ -75,7 +75,7 @@ public class App {
 }
 
 ```
-## Implementation : Iterative
+## Implementation : Iterative (Simple and awesome ...)
 
 ```java
 public List <Integer> inorderTraversal(TreeNode root) {
